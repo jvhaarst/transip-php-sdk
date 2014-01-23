@@ -9,7 +9,7 @@ require_once('DataCenterVisitor.php');
  * @package Transip
  * @class ColocationService
  * @author TransIP (support@transip.nl)
- * @version 20131025 10:01
+ * @version 20140114 01:03
  */
 class Transip_ColocationService
 {
@@ -17,7 +17,7 @@ class Transip_ColocationService
 	/** The SOAP service that corresponds with this class. */
 	const SERVICE = 'ColocationService';
 	/** The API version. */
-	const API_VERSION = '4.2';
+	const API_VERSION = '5.0';
 	/** @var SoapClient  The SoapClient used to perform the SOAP calls. */
 	protected static $_soapClient = null;
 
